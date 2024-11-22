@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00baf2;
+    border-radius: 20px;
+}
+
+.chevron-right {
+    margin-left: 6px;
+    padding: 3px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    transition: all .3s ease;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
